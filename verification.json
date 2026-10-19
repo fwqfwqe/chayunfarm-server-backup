@@ -1,0 +1,17 @@
+{
+  "status": "passed",
+  "snapshot_id": "20261019-233743",
+  "required_paths": "ok",
+  "archive_files_sha256": "ok",
+  "file_count": 12953,
+  "archive_regular_file_count": 12953,
+  "file_manifest_entries": 14788,
+  "sqlite_integrity": "ok",
+  "sqlite_count": 14,
+  "docker_image_count": 3,
+  "container_count": 3,
+  "ciphertext_parts_sha256": "ok",
+  "gcm_authentication": "ok",
+  "plaintext_sha256": "ok",
+  "plaintext_size": "ok"
+}

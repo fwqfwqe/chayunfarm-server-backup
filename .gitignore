@@ -1,0 +1,29 @@
+# Keep all private keys, credentials, production configuration and plaintext local.
+private/
+restore-key.json
+*.key*
+*.pem
+*.p12
+*.pfx
+*.crt
+.env*
+*.sqlite*
+*.db*
+*.log
+
+# Release assets are uploaded separately; never commit archive payloads.
+encrypted/
+*.aes256gcm*
+*.part[0-9]*
+*.tar*
+*.tgz
+*.zip*
+*.partial
+staging/
+
+# Python runtime files.
+__pycache__/
+*.pyc
+*.pyo
+.venv/
+venv/

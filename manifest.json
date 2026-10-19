@@ -1,0 +1,51 @@
+{
+  "format": "chayunfarm-backup-v1",
+  "snapshot_id": "20261019-233743",
+  "created_at": "2026-10-19T15:58:03+00:00",
+  "parts": [
+    {
+      "name": "server-backup.tar.gz.aes256gcm.part001",
+      "size": 104857600,
+      "sha256": "4ee9f9d315cc991c9a3c1a183db7cb046ff998c98f71041d0867fbf0d0feff9d"
+    },
+    {
+      "name": "server-backup.tar.gz.aes256gcm.part002",
+      "size": 104857600,
+      "sha256": "043b5fecf1c4392cc65b1862ab44202a43fdf39dca5ae8c5673f3547c390f846"
+    },
+    {
+      "name": "server-backup.tar.gz.aes256gcm.part003",
+      "size": 104857600,
+      "sha256": "4d9ad3ac161640eb9e3f6b559a140492b76b775748ab986e630dfc146deb9c36"
+    },
+    {
+      "name": "server-backup.tar.gz.aes256gcm.part004",
+      "size": 104857600,
+      "sha256": "d7ac68241dbdabc283bd86d633aed9e613a8a10a990e1baf4c5aece2540a4d8b"
+    },
+    {
+      "name": "server-backup.tar.gz.aes256gcm.part005",
+      "size": 88358211,
+      "sha256": "f07def72ef1692e2de857db8e66229aee90dd1e791e696f8383b2c69ca794228"
+    }
+  ],
+  "plaintext": {
+    "size": 507788570,
+    "sha256": "2808d107d32f7dc7a72f1888ab8add014fc07927bafe2044e19b6f8d2bb42be6"
+  },
+  "validation": {
+    "required_paths": "ok",
+    "archive_files_sha256": "ok",
+    "file_count": 12953,
+    "archive_regular_file_count": 12953,
+    "file_manifest_entries": 14788,
+    "sqlite_integrity": "ok",
+    "sqlite_count": 14,
+    "docker_image_count": 3,
+    "container_count": 3,
+    "ciphertext_parts_sha256": "ok",
+    "gcm_authentication": "ok",
+    "plaintext_sha256": "ok",
+    "plaintext_size": "ok"
+  }
+}
